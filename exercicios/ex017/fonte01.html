@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: "work Sans" , Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            centimetro, milimetro, pixel, in (polegada), pt (ponto), pc (paica). pt e pc não são recomendadas
+        
+            Medidas Relativas
+            em (altura do M mauscúlo que é a remendação da WW3), ex, rem, vw (viw porte, referente ao tamanh da tela), vh, %
+            16px geralmente = 1em
+            recomdações oficiais pela w3c são "em" e "px"
+
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style:italic ;
+            text-decoration: underline;
+            /* weight = peso, width= largura, height= altura*/
+        
+        }
+        h1 {
+            
+            /* shorthand font
+            font-style -> font-weight -> font-family (eatamente nesta ordem acima)
+            font-family: "work Sans", sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/ 
+            font: italic bolder 3em "work Sans", sans-serif;
+        }
+    </style>
+</head>
+<body >
+    
+    <h1>Trabalanado com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium illum numquam dolorum sint eos modi fugit delectus, mollitia, quam distinctio sunt doloremque illo, sed rem perspiciatis culpa vel voluptatem! Velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas accusamus, cum, et quibusdam similique ratione fugit consequuntur veritatis sit quo modi mollitia rem soluta tempore sunt magni voluptatum? Quae, necessitatibus?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores temporibus aliquid accusamus numquam distinctio adipisci! Dolores minima autem dolor corrupti delectus nemo ipsam dolore, veritatis sunt, beatae magni eligendi rerum.</p>
+    <h2>Subtitulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, voluptas. Reprehenderit esse architecto sit earum porro fugit quo, distinctio, accusamus eius excepturi, quas dolorem consequuntur nostrum ipsum quidem. Fuga, est! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis a aspernatur sequi, dolores quasi consequatur veniam ducimus, aliquid suscipit quo ex quae nihil eveniet culpa, porro distinctio ipsam ea quaerat.</p>
+</body>
+</html>
