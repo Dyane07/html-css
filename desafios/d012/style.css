@@ -1,19 +1,20 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2? family= Passion+One & family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
 
-@import url('https://fonts.googleapis.com/css2? family= Passion+One & family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif ;
-    --fonte2: font-family: 'Passion One', cursiva;
-    --fonte3: família de fontes: 'Sriracha', cursiva;
+    --fonte2:  'Passion One', cursiva;
+    --fonte3: 'Sriracha', cursiva;
 
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
@@ -32,6 +33,7 @@ header > h1 {
     /*text-transform: uppercase; */
     font-variant:small-caps ;
     font-family: var(--fonte2);
+    font-size: 10vw;
 }
 
 header > p {
@@ -58,6 +60,8 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 4.5vw;
 }
 
 section.normal {
@@ -71,7 +75,8 @@ section.Imagem {
 }
 
 section.Imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding:5px ;
     background-color: rgba(0, 0, 0, 0.253);
 }
 
